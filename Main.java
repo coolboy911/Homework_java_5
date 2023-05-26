@@ -6,9 +6,6 @@ import java.util.HashSet;
 public class Main {
     public static void main(String[] args) {
         HashSet<Notebook> notebookHashSet = GetNotebookSet();
-        // for (Notebook notebook : notebookHashSet) {
-        //     System.out.println(notebook);
-        // }
 
         HashMap<Integer, Object> filter = new HashMap<>();
         // 1 - brand, 2 - ram, 3 - storage, 4 - os, 5 - price
